@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-21 05:14-0700\n"
-"PO-Revision-Date: 2019-07-26 00:55\n"
+"POT-Creation-Date: 2019-09-10 15:10-0400\n"
+"PO-Revision-Date: 2019-09-13 12:29\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -23,7 +23,7 @@ msgstr "Gestion des URLs privées"
 #: privateurls/templates/private_urls.html:4
 #: privateurls/templates/private_urls.html:5 privateurls/views.py:144
 msgid "Private URLs"
-msgstr "URLs Privées"
+msgstr "URLs privées"
 
 #: privateurls/templates/private_urls.html:17
 msgid "The private URLs for ballot and/or feedback submission from participants are given below."
@@ -84,49 +84,49 @@ msgstr "Tous les participants ont déjà leurs URLs privées."
 msgid "Private URL"
 msgstr "URL privée"
 
-#: privateurls/templates/public_url_landing.html:8
+#: privateurls/templates/public_url_landing.html:10
 #, python-format
 msgid "for %(name)s"
 msgstr "pour %(name)s"
 
-#: privateurls/templates/public_url_landing.html:10
+#: privateurls/templates/public_url_landing.html:12
 #, python-format
 msgid "(%(team)s)"
 msgstr "(%(team)s)"
 
-#: privateurls/templates/public_url_landing.html:19
+#: privateurls/templates/public_url_landing.html:21
 #, python-format
 msgid "The URL of this page is personalised to you, %(name)s. <strong>Do not share it with anyone;</strong> anyone who knows this URL can submit results and/or feedback for your debates. You may bookmark this page and return here after each debate for the available actions."
 msgstr "Cette URL est personnalisée pour toi, %(name)s. <strong>Ne le partage pas avec qui que se soit ;</strong> n’importe qui connait cette URL peut saisir des feuilles et des commentaires de débats en votre nom. Vous pouvez ajouter cette page à vos favoris et y retourner après chaque débat pour les options disponibles."
 
-#: privateurls/templates/public_url_landing.html:38
+#: privateurls/templates/public_url_landing.html:40
 #, python-format
 msgid "Revoke check-in from %(check_time)s"
 msgstr "Révoquez l’enregistrement de %(check_time)s"
 
-#: privateurls/templates/public_url_landing.html:43
+#: privateurls/templates/public_url_landing.html:45
 msgid "Check in"
 msgstr "Enregistrer"
 
-#: privateurls/templates/public_url_landing.html:51
+#: privateurls/templates/public_url_landing.html:53
 #, python-format
 msgid "You have been checked-in at %(check_time)s"
 msgstr "Vous vous êtes enregistré à %(check_time)s"
 
-#: privateurls/templates/public_url_landing.html:56
+#: privateurls/templates/public_url_landing.html:58
 msgid "You are not currently checked-in"
 msgstr "Vous n’êtes pas actuellement enregistré"
 
-#: privateurls/templates/public_url_landing.html:65
+#: privateurls/templates/public_url_landing.html:67
 msgid "Submit Ballot"
 msgstr "Saisir feuille"
 
-#: privateurls/templates/public_url_landing.html:71
-#: privateurls/templates/public_url_landing.html:77
+#: privateurls/templates/public_url_landing.html:73
+#: privateurls/templates/public_url_landing.html:79
 msgid "Submit Feedback"
 msgstr "Saisir Commentaires"
 
-#: privateurls/templates/public_url_landing.html:86
+#: privateurls/templates/public_url_landing.html:88
 #, python-format
 msgid "Registration (%(name)s)"
 msgstr "Enregistrement (%(name)s)"
@@ -161,7 +161,7 @@ msgstr[1] "Des URLs privées ont été générés pour %(nblank_people)d personn
 #: privateurls/views.py:130
 #, python-format
 msgid "The already-existing private URL for %(nexisting_people)d person was left intact."
-msgid_plural "The already-existing private URLs for %(nexisting_people)d people were left intact"
+msgid_plural "The already-existing private URLs for %(nexisting_people)d people were left intact."
 msgstr[0] "L’URL privée n’est pas modifiée pour %(nexisting_people)d personne."
 msgstr[1] "Les URLs privées ne sont pas modifiées pour %(nexisting_people)d personnes."
 
