@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-21 05:14-0700\n"
-"PO-Revision-Date: 2019-07-29 03:15\n"
+"POT-Creation-Date: 2019-09-10 15:10-0400\n"
+"PO-Revision-Date: 2019-09-10 22:49\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -105,79 +105,71 @@ msgstr ""
 msgid "AIDA 2019 (Australs, Dynamic Cap)"
 msgstr ""
 
-#: breakqual/models.py:39
-msgid "WADL division winners first"
-msgstr ""
-
-#: breakqual/models.py:40
-msgid "WADL division winners guaranteed"
-msgstr ""
-
-#: breakqual/models.py:44
+#: breakqual/models.py:42
 msgid "rule"
 msgstr ""
 
-#: breakqual/models.py:45
+#: breakqual/models.py:43
 msgid "Rule for how the break is calculated (most tournaments should use \"Standard\")"
 msgstr ""
 
-#: breakqual/models.py:48 breakqual/models.py:105
+#: breakqual/models.py:46 breakqual/models.py:103
 msgid "breaking teams"
 msgstr ""
 
-#: breakqual/models.py:57 breakqual/models.py:76
+#: breakqual/models.py:55 breakqual/models.py:74
 msgid "break category"
 msgstr ""
 
-#: breakqual/models.py:58
+#: breakqual/models.py:56
 msgid "break categories"
 msgstr ""
 
-#: breakqual/models.py:78
+#: breakqual/models.py:76
 msgid "team"
 msgstr "dupla"
 
-#: breakqual/models.py:80
+#: breakqual/models.py:78
 msgid "rank"
 msgstr ""
 
-#: breakqual/models.py:82
+#: breakqual/models.py:80
 msgid "break rank"
 msgstr ""
 
-#: breakqual/models.py:91
+#: breakqual/models.py:89
 msgid "Capped"
 msgstr ""
 
-#: breakqual/models.py:92
+#: breakqual/models.py:90
 msgid "Ineligible"
 msgstr ""
 
-#: breakqual/models.py:93
+#: breakqual/models.py:91
 msgid "Different break"
 msgstr ""
 
-#: breakqual/models.py:94
+#: breakqual/models.py:92
 msgid "Disqualified"
 msgstr ""
 
-#: breakqual/models.py:95
+#: breakqual/models.py:93
 msgid "Lost coin toss"
 msgstr ""
 
-#: breakqual/models.py:96
+#: breakqual/models.py:94
 msgid "Withdrawn"
 msgstr ""
 
-#: breakqual/models.py:99
+#: breakqual/models.py:97
 msgid "remark"
 msgstr ""
 
-#: breakqual/models.py:100
+#: breakqual/models.py:98
 msgid "Used to explain why an otherwise-qualified team didn't break"
 msgstr ""
 
-#: breakqual/models.py:104
+#: breakqual/models.py:102
 msgid "breaking team"
 msgstr ""
 
