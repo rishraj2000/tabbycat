@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-21 05:14-0700\n"
-"PO-Revision-Date: 2019-09-07 09:07\n"
+"POT-Creation-Date: 2019-09-10 15:10-0400\n"
+"PO-Revision-Date: 2019-10-03 02:35\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: adjfeedback/forms.py:181
 msgid "Ignored"
-msgstr ""
+msgstr "反映されていません"
 
 #. Translators: e.g. "Megan Pearson (Round 2 chair)", with round="Round 2", adjpos="chair"
 #. Translators: e.g. "Megan Pearson (Round 3 panellist)", with round="Round 3", adjpos="panellist"
@@ -366,7 +366,7 @@ msgstr ""
 msgid "adjudicator feedback questions"
 msgstr ""
 
-#: adjfeedback/models.py:224 adjfeedback/views.py:787
+#: adjfeedback/models.py:224 adjfeedback/views.py:762
 msgid "ignored"
 msgstr ""
 
@@ -391,7 +391,7 @@ msgid "There was both a source adjudicator and a source team."
 msgstr ""
 
 #: adjfeedback/models.py:282
-msgid "There is no adjudicator specified as the target for this feedback.Perhaps they were deleted?"
+msgid "There is no adjudicator specified as the target for this feedback. Perhaps they were deleted?"
 msgstr ""
 
 #: adjfeedback/models.py:284
@@ -446,20 +446,21 @@ msgstr ""
 msgid "Hover over the data points to show the average score received in that round"
 msgstr ""
 
-#: adjfeedback/tables.py:123
+#: adjfeedback/tables.py:124
 #, python-format
-msgid "View %(count)s<br>feedbacks"
-msgstr ""
+msgid "View %(count)s<br>feedback"
+msgid_plural "View %(count)s<br>feedbacks"
+msgstr[0] ""
 
-#: adjfeedback/tables.py:136
+#: adjfeedback/tables.py:140
 msgid "Edit<br>Note"
 msgstr ""
 
-#: adjfeedback/tables.py:156
+#: adjfeedback/tables.py:160
 msgid "Unsubmitted feedback ballots"
 msgstr ""
 
-#: adjfeedback/tables.py:180
+#: adjfeedback/tables.py:184
 msgid "View Missing Feedback"
 msgstr ""
 
@@ -763,14 +764,6 @@ msgstr ""
 msgid "Save Test Score"
 msgstr ""
 
-#: adjfeedback/templates/overview_modals.html:56
-msgid "Edit Note"
-msgstr ""
-
-#: adjfeedback/templates/overview_modals.html:70
-msgid "Save"
-msgstr ""
-
 #: adjfeedback/templates/public_add_feedback.html:4
 msgid "Who are you?"
 msgstr ""
@@ -812,132 +805,127 @@ msgstr ""
 msgid "Submit"
 msgstr "提出"
 
-#: adjfeedback/views.py:121
+#: adjfeedback/views.py:118
 msgid "Feedback Overview"
 msgstr "フィードバック概要"
 
-#: adjfeedback/views.py:147
+#: adjfeedback/views.py:142
 msgid "Find Feedback on Adjudicator"
 msgstr "ジャッジに対するフィードバックを検索"
 
-#: adjfeedback/views.py:158 adjfeedback/views.py:182 adjfeedback/views.py:197
+#: adjfeedback/views.py:153 adjfeedback/views.py:177 adjfeedback/views.py:192
 #, python-format
 msgid "%(count)d feedback"
 msgid_plural "%(count)d feedbacks"
 msgstr[0] "%(count)d件のフィードバック"
 
-#: adjfeedback/views.py:161 adjfeedback/views.py:187 adjfeedback/views.py:202
+#: adjfeedback/views.py:156 adjfeedback/views.py:182 adjfeedback/views.py:197
 msgid "Feedbacks"
 msgstr "フィードバック"
 
-#: adjfeedback/views.py:168
+#: adjfeedback/views.py:163
 msgid "Find Feedback"
 msgstr "フィードバックを探す"
 
-#: adjfeedback/views.py:176 adjfeedback/views.py:732
+#: adjfeedback/views.py:171 adjfeedback/views.py:707
 msgid "From Teams"
 msgstr ""
 
-#: adjfeedback/views.py:191 adjfeedback/views.py:726
+#: adjfeedback/views.py:186 adjfeedback/views.py:701
 msgid "From Adjudicators"
 msgstr ""
 
-#: adjfeedback/views.py:276
+#: adjfeedback/views.py:271
 msgid "Latest Feedback"
 msgstr "最近のフィードバック"
 
-#: adjfeedback/views.py:277
+#: adjfeedback/views.py:272
 msgid "(30 most recent)"
 msgstr "（直近30個）"
 
-#: adjfeedback/views.py:287
+#: adjfeedback/views.py:282
 msgid "Only Comments"
 msgstr ""
 
-#: adjfeedback/views.py:288
+#: adjfeedback/views.py:283
 msgid "(250 most recent)"
 msgstr ""
 
-#: adjfeedback/views.py:299
+#: adjfeedback/views.py:294
 msgid "Important Feedback"
 msgstr "重要なフィードバック"
 
-#: adjfeedback/views.py:300
+#: adjfeedback/views.py:295
 msgid "(rating was much higher/lower than expected)"
 msgstr "（評価が予想より高かった/低かった）"
 
-#: adjfeedback/views.py:367
+#: adjfeedback/views.py:362
 msgid "A Team"
 msgstr "チーム"
 
-#: adjfeedback/views.py:372
+#: adjfeedback/views.py:367
 msgid "Team"
 msgstr "チーム"
 
-#: adjfeedback/views.py:379 adjfeedback/views.py:404
+#: adjfeedback/views.py:374 adjfeedback/views.py:393
 msgid "Institution"
 msgstr "大学・団体"
 
-#: adjfeedback/views.py:387
+#: adjfeedback/views.py:379
 msgid "An Adjudicator"
 msgstr "ジャッジ"
 
-#: adjfeedback/views.py:397
+#: adjfeedback/views.py:386
 msgid "Adjudicator"
 msgstr "ジャッジ"
 
-#: adjfeedback/views.py:524
+#: adjfeedback/views.py:513
 #, python-format
 msgid "Feedback from %(source)s on %(target)s added."
 msgstr ""
 
-#: adjfeedback/views.py:554
+#: adjfeedback/views.py:543
 #, python-format
 msgid "Thanks, %(source)s! Your feedback on %(target)s has been recorded."
 msgstr ""
 
-#: adjfeedback/views.py:633
+#: adjfeedback/views.py:622
 #, python-format
 msgid "Whoops! I didn't recognise that adjudicator: %(adj)s"
 msgstr ""
 
-#: adjfeedback/views.py:656
+#: adjfeedback/views.py:645
 msgid "Whoops! The value isn't a valid test score."
 msgstr ""
 
-#: adjfeedback/views.py:689
-#, python-format
-msgid "Whoops! There was an error interpreting that string: %s"
-msgstr ""
-
-#: adjfeedback/views.py:697
+#: adjfeedback/views.py:672
 msgid "Feedback Progress"
 msgstr "フィードバック提出状況"
 
-#: adjfeedback/views.py:718
+#: adjfeedback/views.py:693
 #, python-format
 msgid "%(nmissing)d missing feedback submission (%(fulfilled).1f%% returned)"
 msgid_plural "%(nmissing)d missing feedback submissions (%(fulfilled).1f%% returned)"
 msgstr[0] ""
 
-#: adjfeedback/views.py:763
+#: adjfeedback/views.py:738
 #, python-format
 msgid "Feedback for %(adj)s from %(source)s is now %(result)s."
 msgstr ""
 
-#: adjfeedback/views.py:777
+#: adjfeedback/views.py:752
 msgid "confirmed"
 msgstr ""
 
-#: adjfeedback/views.py:777
+#: adjfeedback/views.py:752
 msgid "un-confirmed"
 msgstr ""
 
-#: adjfeedback/views.py:787
+#: adjfeedback/views.py:762
 msgid "un-ignored"
 msgstr ""
 
-#: adjfeedback/views.py:823
+#: adjfeedback/views.py:798
 #, python-format
 msgid "Updated test score for %(count)d adjudicator."
 msgid_plural "Updated test scores for %(count)d adjudicators."
